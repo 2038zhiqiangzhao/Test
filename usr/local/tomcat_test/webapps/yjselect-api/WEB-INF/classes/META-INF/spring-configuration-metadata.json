@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.people.config.DataSourceConfig",
+      "name": "selfmysql",
+      "type": "com.people.config.DataSourceConfig"
+    },
+    {
+      "sourceType": "com.people.common.config.ReadProperties",
+      "name": "soap",
+      "type": "com.people.common.config.ReadProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.people.common.config.ReadProperties",
+      "name": "soap.namespace",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.people.common.config.ReadProperties",
+      "name": "soap.post-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.people.common.config.ReadProperties",
+      "name": "soap.prexmlns",
+      "type": "java.lang.String"
+    }
+  ]
+}

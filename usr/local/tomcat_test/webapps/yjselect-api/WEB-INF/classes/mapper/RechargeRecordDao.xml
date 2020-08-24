@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.people.dao.RechargeRecordDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.people.entity.RechargeRecordEntity" id="rechargeRecordMap">
+        <result property="id" column="id"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+        <result property="customerId" column="customer_id"/>
+        <result property="custName" column="cust_name"/>
+        <result property="custNumber" column="cust_number"/>
+        <result property="amount" column="amount"/>
+        <result property="isSuccess" column="is_success"/>
+        <result property="failReasons" column="fail_reasons"/>
+        <result property="reserved" column="reserved"/>
+        <result property="deletedAt" column="deleted_at"/>
+    </resultMap>
+
+
+</mapper>

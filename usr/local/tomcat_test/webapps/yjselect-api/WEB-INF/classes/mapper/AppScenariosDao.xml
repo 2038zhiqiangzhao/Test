@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.people.dao.AppScenariosDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.people.entity.AppScenariosEntity" id="appScenariosMap">
+        <result property="id" column="id"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+        <result property="sceneName" column="scene_name"/>
+        <result property="downurls" column="downurls"/>
+        <result property="outputItems" column="output_items"/>
+        <result property="isState" column="is_state"/>
+        <result property="description" column="description"/>
+        <result property="reserved" column="reserved"/>
+        <result property="deletedAt" column="deleted_at"/>
+    </resultMap>
+
+
+</mapper>

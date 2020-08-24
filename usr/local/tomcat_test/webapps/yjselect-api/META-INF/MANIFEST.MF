@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: yjselect-api
+Implementation-Version: 3.2.0
+Archiver-Version: Plexus Archiver
+Built-By: zhouqi
+Implementation-Vendor-Id: people.yjselect
+Spring-Boot-Version: 2.0.5.RELEASE
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: com.people.ApiApplication
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_11
+

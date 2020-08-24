@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.people.dao.SelectDataLogDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.people.entity.SelectDataLogEntity" id="selectDataLogMap">
+        <result property="id" column="id"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+        <result property="customerId" column="customer_id"/>
+        <result property="appId" column="app_id"/>
+        <result property="requestName" column="request_name"/>
+        <result property="queryCount" column="query_count"/>
+        <result property="queryInfo" column="query_info"/>
+        <result property="fileName" column="file_name"/>
+        <result property="reserved" column="reserved"/>
+        <result property="deletedAt" column="deleted_at"/>
+    </resultMap>
+
+
+</mapper>

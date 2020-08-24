@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.people.dao.FishermanInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+	<resultMap type="com.people.entity.FishermanInfoEntity" id="fishermanInfoMap">
+		<result property="id" column="id" />
+		<result property="innerKeyNumber" column="inner_key_number" />
+		<result property="innerKeyValue" column="inner_key_value" />
+		<result property="operationType" column="operation_type" />
+		<result property="isEcc" column="is_ecc" />
+		<result property="isServers" column="is_servers" />
+		<result property="pubKeyValue" column="pub_key_value" />
+		<result property="custNumber" column="cust_number" />
+		<result property="outKeyName" column="out_key_name" />
+		<result property="isInnerKey" column="is_inner_key" />
+		<result property="outKeyPath" column="out_key_path" />
+		<result property="kt1KeyValue" column="kt1_key_value" />
+		<result property="kt1KeyPath" column="kt1_key_path" />
+		<result property="kt2KeyValue" column="kt2_key_value" />
+		<result property="kt2KeyPath" column="kt2_key_path" />
+		<result property="kt3KeyValue" column="kt3_key_value" />
+		<result property="kt3KeyPath" column="kt3_key_path" />
+		<result property="createdAt" column="created_at" />
+		<result property="updatedAt" column="updated_at" />
+		<result property="reserved" column="reserved" />
+		<result property="deletedAt" column="deleted_at" />
+	</resultMap>
+
+
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.people.dao.UserInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.people.entity.UserInfoEntity" id="userInfoMap">
+        <result property="id" column="id"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+        <result property="userName" column="user_name"/>
+        <result property="password" column="password"/>
+        <result property="mobile" column="mobile"/>
+        <result property="passwordAt" column="password_at"/>
+        <result property="lastLoginAt" column="last_login_at"/>
+        <result property="isState" column="is_state"/>
+        <result property="nickName" column="nick_name"/>
+        <result property="headImage" column="head_image"/>
+        <result property="birthAt" column="birth_at"/>
+        <result property="gender" column="gender"/>
+        <result property="sessionToken" column="session_token"/>
+        <result property="email" column="email"/>
+        <result property="reserved" column="reserved"/>
+        <result property="deletedAt" column="deleted_at"/>
+    </resultMap>
+
+
+</mapper>
